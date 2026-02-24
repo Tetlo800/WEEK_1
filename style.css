@@ -1,0 +1,84 @@
+/* Reset defaul browser spacing and margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff5f7; /* very light blush pink background */
+}
+
+/* Header */
+header {
+    background-color: #ff6f91; /* vibrant pink */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #f06292; /* slightly darker pink border */
+}
+
+/* Navigation */
+nav {
+    background-color: fce4ec; /* light pink */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #c2185b; /* deep pink */
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ff4081; /* bright pink on hover */
+}
+
+/* Main content */
+main {
+    padding: 40px 10%;
+}
+
+/* Sections*/
+section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+}
+
+/* Products */
+.product {
+    border: 1px solid #f06292; /* light pink border */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.2;
+}
+
+.product:hover {
+    transform: scale(1.02); /* slight lift on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #f06292; /* Deep rose pink */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+
+
+
